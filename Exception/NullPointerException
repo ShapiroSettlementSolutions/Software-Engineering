@@ -1,2 +1,20 @@
-test me
-made some changes
+1. do knowobject.equals(unkownobject) instead of unknownobject.equals(knowobject)
+
+//bad
+private Boolean isFinished(String status) {  
+     if (status.equalsIgnoreCase("Finish")) {  
+       return Boolean.TRUE;  
+     } else {  
+       return Boolean.FALSE;  
+     }  
+   }
+
+
+//good
+private Boolean isFinished(String status) {
+        if ("Finish".equalsIgnoreCase(status)) {
+            return Boolean.TRUE;
+        } else {
+            return Boolean.FALSE;
+        }
+    }
