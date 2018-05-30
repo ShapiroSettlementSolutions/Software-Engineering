@@ -52,3 +52,11 @@ if (managerId != null) {
 } else {  
   //write your code here  
 }  
+
+4.Use StringUtils to check
+
+ StringUtils.isEmpty(null)      = true
+ StringUtils.isEmpty("")        = true
+ StringUtils.isEmpty(" ")       = false
+ StringUtils.isEmpty("bob")     = false
+ StringUtils.isEmpty("  bob  ") = false
