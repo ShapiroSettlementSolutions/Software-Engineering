@@ -54,7 +54,7 @@ if (managerId != null) {
 }  
 
 4.Use StringUtils to check
-
+https://commons.apache.org/proper/commons-lang/javadocs/api-2.6/org/apache/commons/lang/StringUtils.html#isEmpty(java.lang.String)
  StringUtils.isEmpty(null)      = true
  StringUtils.isEmpty("")        = true
  StringUtils.isEmpty(" ")       = false
