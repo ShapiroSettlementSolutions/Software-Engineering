@@ -18,3 +18,37 @@ private Boolean isFinished(String status) {
             return Boolean.FALSE;
         }
     }
+
+2. Return empty collection
+
+//bad
+public static List getEmployees() {  
+   List list = null;  
+   return list;  
+ }  
+ 
+//good
+public static List getEmployees() {  
+  List list = Collections.EMPTY_LIST;  
+  return list;  
+}  
+ 
+ 
+3. Avoid too many dots functions
+//bad
+String attrValue = (String)findViewObject("VO_NAME").getCurrentRow().getAttribute("Attribute_NAME");
+
+//good
+ViewObject vo = findViewObject("VO_NAME");  
+Row row = vo.getCurrentRow();  
+String attrValue = (String)row.getAttribute("Attribute_NAME");
+
+4.Exception Handling
+always check null value
+
+String managerId = getManager("A015");  
+if (managerId != null) {  
+  System.out.println(managerId.toString());  
+} else {  
+  //write your code here  
+}  
