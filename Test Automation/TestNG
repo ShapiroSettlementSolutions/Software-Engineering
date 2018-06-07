@@ -1,0 +1,18 @@
+1. Execution order
+
+In testng.xml, instead of using <package>, should use <classes> to control the default order.
+    <test name="Person Service">
+        <!--<packages>-->
+            <!--<package name="person.Person"/>-->
+            <!--<package name="person.emails"/>-->
+        <!--</packages>-->
+        <classes>
+            <class name="person.emails.EmailsAdd"/>
+            <class name="person.emails.EmailsAddBulk"/>
+            <class name="person.emails.EmailsGet"/>
+            <class name="person.emails.EmailsGetBulk"/>
+            <class name="person.emails.EmailsAggregates"/>
+            <class name="person.emails.EmailsSearch"/>
+            <class name="person.emails.EmailsDelete"/>
+        </classes>
+    </test>
