@@ -1,7 +1,8 @@
 1. Execution order
 
 In testng.xml, instead of using <package>, should use <classes> to control the default order.
-    <test name="Person Service">
+This is controlled by perserve-order. 
+    <test name="Person Service" preserve-order="true">
         <!--<packages>-->
             <!--<package name="person.Person"/>-->
             <!--<package name="person.emails"/>-->
