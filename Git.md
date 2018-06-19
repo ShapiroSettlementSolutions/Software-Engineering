@@ -3,11 +3,20 @@ https://guides.github.com/introduction/git-handbook/
 
            
 workspace ------------> index ---------> local repository --------> remote respository
+
            add                  commit                     push
+           
+           
            commit -a
+           
+           
+           
 <-------------------------------------------------------------------------------------
+
                   pull or rebase
+                  
                                                   <-----------------------------------
+                                                  
                                                             fetch
                                                       
                  
