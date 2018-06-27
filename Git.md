@@ -54,6 +54,12 @@ git commit -m "my snapshot"
 
 git push --set-upstream origin my-branch
 
+or 
+
+git push origin master (since git knows how to find it)
+
+if the credential login popup doesn't work, just use the command line  
+if email address doesn't work, just use the user name
 
 # Example: Remove files\folders
 
