@@ -1,3 +1,0 @@
-Programming Languages
-
-We do not require that you know any specific programming language before interviewing for a tech position. However, familiarity with a prominent language is generally a prerequisite for success. You should be familiar with the syntax of languages such as Java, Python, C#, C/C++, or Ruby. You should also know some of the languages’ nuances, such as how memory management works, or the most commonly used collections, libraries, etc.
