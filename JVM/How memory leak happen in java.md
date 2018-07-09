@@ -5,3 +5,6 @@
 # How does leak happen
 ## 1. Static Field Holding onto the Object reference
 ## 2. Calling String.intern() on Long String
+## 3. Unclosed streams
+## 4. Unclosed connections
+## 5. Adding objects with no hashCode() and equals() into a HashSet
